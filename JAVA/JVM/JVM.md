@@ -103,6 +103,6 @@ MyClass myClass = new MyClass();
 
 ### GC
 
-* 더이상 참조회지 않는 객체를 모아서 정리.
+* 더이상 참조되지 않는 객체를 모아서 정리.
 * 경우에 따라 옵션을 조정하거나 애플리케이션에 따라 사용하는 GC를 선택해야하는 경우도 있음.
 * GC를 크게 둘로 나누면 throughtput GC와 stop-the-world를 줄이는 GC가 있음. [자료](https://linux.systemv.pe.kr/%EC%9C%A0%EC%9A%A9%ED%95%9C-jvm-%ED%94%8C%EB%9E%98%EA%B7%B8%EB%93%A4-part-6-throughput-collector/#Throughput_vs_pause_times)
